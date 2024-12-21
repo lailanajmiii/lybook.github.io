@@ -1,0 +1,194 @@
+/* Global Styles */
+body {
+  font-family: "Georgia", serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fdf6e3; /* Vintage beige background */
+  color: #5e503f; /* Soft brown for text */
+  line-height: 1.8;
+}
+
+a {
+  text-decoration: none;
+  color: #8c5e58; /* Warm brown */
+}
+
+a:hover {
+  color: #5e4037; /* Darker warm brown */
+}
+
+/* Navbar Logo */
+.logo img {
+  height: 50px; /* Atur tinggi logo */
+  width: auto; /* Sesuaikan proporsi */
+  margin-right: 10px; /* Beri jarak dengan teks atau item lain */
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* Navbar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #6d5234; /* Muted brownish beige */
+  color: #6d5234;
+  padding: 10px 20px;
+  height: 80px; /* Pastikan tinggi navbar tetap konsisten */
+  border-bottom: 3px solid #b89e88;
+}
+
+.logo img {
+  height: 170px;
+  max-height: 100%; /* Pastikan tinggi sesuai navbar */
+  max-width: 100%; /* Sesuaikan dengan lebar navbar */
+  object-fit: contain; /* Menjaga proporsi gambar */
+  vertical-align: middle; /* Selaras secara vertikal */
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin: 0 15px;
+  line-height: 60px; /* Menyelaraskan teks di tengah */
+}
+
+nav ul li a {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #b4aa9f;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Jumbotron */
+.jumbotron {
+  background-color: #b89e88; /* Warna cokelat tua */
+  color: #fff;
+  text-align: center;
+  padding: 80px 20px;
+  font-family: "Georgia", serif;
+  border-bottom: 3px solid #b89e88;
+}
+
+.jumbotron h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+}
+
+.jumbotron p {
+  font-size: 1.2em;
+  font-weight: 300;
+}
+
+/* About Section */
+#about {
+  padding: 50px 20px;
+  text-align: center;
+  background-color: #f7e9d7; /* Soft parchment tone */
+  border-top: 3px solid #b89e88;
+}
+
+#about h2 {
+  font-size: 2.5em;
+  color: #8c5e58;
+  margin-bottom: 20px;
+}
+
+#about p {
+  font-size: 1.1em;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.8;
+  color: #5e503f;
+}
+
+/* Orders Section */
+#orders {
+  padding: 50px 20px;
+  background-color: #fdf6e3;
+}
+
+#orders h2 {
+  text-align: center;
+  font-size: 2.5em;
+  color: #8c5e58;
+  margin-bottom: 30px;
+}
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 20px;
+  border: 2px solid #d9c7b3;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  font-family: "Georgia", serif;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #5e503f;
+}
+
+form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #d9c7b3;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+}
+
+form input:focus {
+  border-color: #b89e88;
+  outline: none;
+  box-shadow: 0 0 5px rgba(184, 158, 136, 0.5);
+}
+
+form button {
+  background-color: #8c5e58;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #5e4037;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #d9c7b3;
+  color: #5e503f;
+  margin-top: 50px;
+}
+
+footer p {
+  margin: 5px 0;
+}
+
+footer a {
+  color: #5e503f;
+}
+
+footer a:hover {
+  color: #8c5e58;
+}
