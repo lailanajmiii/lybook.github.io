@@ -111,67 +111,6 @@ nav ul li a:hover {
   color: #5e503f;
 }
 
-/* Orders Section */
-#orders {
-  padding: 50px 20px;
-  background-color: #fdf6e3;
-}
-
-#orders h2 {
-  text-align: center;
-  font-size: 2.5em;
-  color: #8c5e58;
-  margin-bottom: 30px;
-}
-
-form {
-  max-width: 600px;
-  margin: 0 auto;
-  background: #fff;
-  padding: 20px;
-  border: 2px solid #d9c7b3;
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  font-family: "Georgia", serif;
-}
-
-form label {
-  display: block;
-  margin-bottom: 5px;
-  font-weight: bold;
-  color: #5e503f;
-}
-
-form input {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 15px;
-  border: 1px solid #d9c7b3;
-  border-radius: 5px;
-  box-sizing: border-box;
-  font-family: "Courier New", Courier, monospace;
-}
-
-form input:focus {
-  border-color: #b89e88;
-  outline: none;
-  box-shadow: 0 0 5px rgba(184, 158, 136, 0.5);
-}
-
-form button {
-  background-color: #8c5e58;
-  color: #fff;
-  padding: 10px 15px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-form button:hover {
-  background-color: #5e4037;
-}
-
 /* Footer */
 footer {
   text-align: center;
